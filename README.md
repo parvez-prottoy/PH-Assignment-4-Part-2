@@ -22,3 +22,23 @@ VAT Rate: 7.5%
     ইনপুট টি পজিটিভ সংখ্যা না হয় তাহলে "Invalid" স্ট্রিং রিটার্ন করবে।
 
     💡Hints:  যদি ইনপুট amount = 1500 হয়, তাহলে VAT হবে: 1500 × 7.5 / 100 = 112.5 Taka
+
+## Problem-02 : Valid Bangladeshi Number
+
+⚠️ Function Name Must be validContact()
+এবার তোমার কাজ হলো validContact() নামে একটা ফাংশন তৈরি করা, যা কিছু শর্তের ভিত্তিতে যাচাই করবে একটা Contact number ভ্যালিড কিনা। একটি Contact number ভ্যালিড হবার শর্ত হলো
+
+Contact Number টি অবশ্যই 11 digit এর হতে হবে।
+Contact Number টি শুরু হবে "01" দিয়ে
+Contact Number এ কোন স্পেস থাকা যাবে না।
+
+উপরের শর্ত গুলো পুরন হলে ই সে true আউটপুট হিসেবে return করবে। না হলে false আউটপুট হিসেবে return করবে।
+
+    📥 Input:
+    তোমার ফাংশন একটি ইনপুট নেবে যা হবে একটি স্ট্রিং। স্ট্রিং এর character গুলো অবশ্যই 0-9 এর ভেতরে দেয়া হবে।
+
+    🚀 Output:
+    তোমার ফাংশন টি একটা boolean Value (true/false) কে return করবে। অবশ্যই তোমাকে কিন্তু boolean value ই return করতে হবে।
+    Note: তোমাকে অবশ্যই output টা রিটার্ন করতে হবে। console.log করলে কোন মার্ক পাবেনা
+
+    🚩Challenge: যদি ইনপুট টি string না হয় তাহলে "Invalid" স্ট্রিং রিটার্ন করবে।

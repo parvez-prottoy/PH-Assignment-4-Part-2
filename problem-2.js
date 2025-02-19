@@ -1,10 +1,4 @@
-function calculateVAT(price) {
-  if (typeof price !== "number" || price < 0) {
-    return "Invalid";
-  }
-  const vat = 7.5 / 100;
-  return price * vat;
-}
+// Problem-02 :  Valid  Bangladeshi Number
 
 function validContact(contact) {
   if (typeof contact !== "string") {
@@ -19,3 +13,4 @@ function validContact(contact) {
     return true;
   }
 }
+console.log(validContact(true));
